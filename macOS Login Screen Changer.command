@@ -31,7 +31,6 @@ if [ -f ~/Documents/OSX_LS/com.apple.desktop.admin.png.backup ]; then
         osascript -e 'display dialog "Please select the image you want to use" buttons "OK"'
         LOCATION="$(osascript -e 'tell application "Terminal" to return POSIX path of (choose file)')"
         wait
-        cd /Library/Caches
         cp $LOCATION /Library/Caches/com.apple.desktop.admin.png
         echo "Done"
         exit 0
