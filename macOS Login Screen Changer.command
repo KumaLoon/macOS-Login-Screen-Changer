@@ -27,14 +27,14 @@ if [ -f ~/Documents/OSX_LS/com.apple.desktop.admin.png.backup ]; then
     clear
     read -p "Do you want to keep original lockscreen file? If yes, it will not back up the current lockscreen. (y/n): " BKUPOSX
     done
-    if [ "$BKUPOSX" == "Y" ] && [ "$BKUPOSX" == "y" ]; then
+    if [ "$BKUPOSX" == "Y" ] || [ "$BKUPOSX" == "y" ]; then
         osascript -e 'display dialog "Please select the image you want to use" buttons "OK"'
         LOCATION="$(osascript -e 'tell application "Terminal" to return POSIX path of (choose file)')"
         wait
         cp $LOCATION /Library/Caches/com.apple.desktop.admin.png
         echo "Done"
         exit 0
-    elif [ "$BKUPOSX" == "N" ] && [ "$BKUPOSX" == "n" ]; then
+    elif [ "$BKUPOSX" == "N" ] || [ "$BKUPOSX" == "n" ]; then
         osascript -e 'display dialog "Please select the image you want to use" buttons "OK"'
         LOCATION="$(osascript -e 'tell application "Terminal" to return POSIX path of (choose file)')"
         wait
