@@ -8,5 +8,5 @@ This is the new version of Login screen changer. You can now manually choose the
 - A lot of codes were cleaned up
 
 # Compatibility/호환성
-This script has been tested on OS X Yosemite, OS X El Capitan, and macOS Sierra Beta 6.
-이 스크립트는 현제 OS X Yosemite, OS X El Capitan, 그리고 macOS Sierra 베타 6에서 테스트를 완료한 스크립트 입니다.
+This script has been tested on OS X Yosemite, OS X El Capitan, and macOS Sierra.
+이 스크립트는 현제 OS X Yosemite, OS X El Capitan, 그리고 macOS Sierra에서 테스트를 완료한 스크립트 입니다.
