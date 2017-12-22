@@ -8,7 +8,10 @@ How TO: type "python3 location of the script" (without "") in Terminal App
 파이썬 3 스크립트가 제일 안정적으로 작동하고 있습니다. 되도록이면 파이썬 3 버전을 사용해주세요.
 사용법:Terminal에서 "python3 스크립트 위치" ("" 빼고)
 # What has been changed?
-- New python3 script that runs better than ever.
+- JPEG support has been removed (for now)
+
+# Issues
+It seems like if you use JPEG or image file that doesn't match your resolution, it will not change the lockscreen. Also there is an issue that does not change the lockscreen for some reason. I am looking into that issue. I think It's Apple's fault but who knows?
 
 # Compatibility/호환성
 This script has been tested on OS X Yosemite, OS X El Capitan, and macOS Sierra.
